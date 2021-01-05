@@ -1,0 +1,27 @@
+.UserCard {
+  display: flex;
+  padding: 20px 10px;
+  align-items: center;
+  border-radius: 17px;
+  margin-right: 7px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  &:hover {
+    background: #787878bf;
+  }
+}
+.Con__info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10px;
+}
+.Con__info h3 {
+  color: #e1e1e1;
+}
+.Con__body {
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+  width: 100%;
+}

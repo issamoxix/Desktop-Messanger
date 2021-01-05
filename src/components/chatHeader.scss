@@ -1,0 +1,33 @@
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.UserInfo {
+  display: flex;
+  align-items: center;
+}
+.UserBody {
+  margin-left: 20px;
+}
+.UserBody h3 {
+  color: #fff;
+}
+.UserBody p {
+  color: lightgray;
+}
+.HeaderIcons {
+  color: #fff;
+  display: flex;
+}
+.HeaderIconWrapper {
+  background-color: var(--user-bg);
+  height: 50px;
+  width: 50px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

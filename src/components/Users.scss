@@ -1,0 +1,60 @@
+.users__container {
+  flex: 0.25;
+  background-color: var(--user-bg);
+  height: 100%;
+  border-radius: 17px 0 0 17px;
+  padding-left: 10px;
+}
+.header__icons {
+  display: flex;
+  padding: 20px 0;
+}
+.red__icon,
+.yellow__icon,
+.green__icon {
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.red__icon {
+  background-color: var(--red-icon);
+}
+.yellow__icon {
+  background-color: var(--yellow-icon);
+  margin: 0 0.4rem;
+}
+.green__icon {
+  background-color: var(--green-icon);
+}
+.Category {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.Category h2 {
+  color: #fff;
+}
+.Cate__Icons {
+  color: #fff;
+  display: flex;
+}
+.IconWrapper {
+  background-color: gray;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.hide {
+  flex: 0;
+}

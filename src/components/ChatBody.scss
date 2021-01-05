@@ -1,0 +1,25 @@
+.ChatBody {
+  flex: 1;
+  margin-top: 1rem;
+  overflow: auto;
+}
+.Message {
+  display: flex;
+  margin: 1rem 0;
+}
+.MessageBody p {
+  color: #fff;
+}
+.MessageBody {
+  background-color: #8175ff;
+  padding: 10px;
+  border-radius: 17px;
+  max-width: 60%;
+  margin: 0 1rem;
+}
+.my {
+  flex-direction: row-reverse;
+}
+.my_b {
+  background-color: #00000061;
+}
