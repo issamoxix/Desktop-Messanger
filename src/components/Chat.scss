@@ -5,6 +5,7 @@
   background-color: var(--chat-bg);
   border-radius: 0 17px 17px 0;
   padding: 40px;
+  backdrop-filter: blur(8px);
 }
 .InputForm {
   display: flex;

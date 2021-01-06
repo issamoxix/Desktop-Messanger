@@ -5,8 +5,8 @@ import MyMessage from "./MyMessage";
 const ChatBody = () => {
   return (
     <div className="ChatBody">
-      <Message />
       <MyMessage />
+      <Message />
     </div>
   );
 };
