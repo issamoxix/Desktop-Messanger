@@ -1,3 +1,5 @@
+# Design from https://dribbble.com/shots/14866428-Desktop-Messenger-App/attachments/6577420?mode=media
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
